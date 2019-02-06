@@ -1,5 +1,5 @@
 const express = require('express');
-// const apiRoutes = require('/routing/apiRoutes');
+const apiRoutes = require('./routing/apiRoutes');
 const htmlRoutes = require('./routing/htmlRoutes');
 
 
@@ -10,6 +10,7 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/', htmlRoutes);
+app.use('/', apiRoutes);
 
 
 app.listen(PORT, function() {
