@@ -29,7 +29,6 @@ module.exports = function (app) {
         //variables for processing
 
         let absSum; //the iterated absolute difference per index
-        let totalDifference;
         let friendResultsArr = [];
         let chosen;
 
