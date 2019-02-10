@@ -4,7 +4,7 @@
   "description": "This dataing app uses Express and Heroku.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app/server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
